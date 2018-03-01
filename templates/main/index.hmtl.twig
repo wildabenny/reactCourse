@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+INDEX działa
+{% endblock %}
+
+{% block body %}
+<div id="app"></div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+<script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
+{% endblock %}
